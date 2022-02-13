@@ -1,0 +1,30 @@
+{
+    "name": "Jacdac_BLE_Keyboard",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "microphone": "*",
+        "jacdac": "github:microsoft/pxt-jacdac#v0.8.7",
+        "jacdac-button": "github:microsoft/pxt-jacdac/button#v0.8.7",
+        "jacdac-speech-synthesis": "github:microsoft/pxt-jacdac/speech-synthesis",
+        "microbit-pxt-blehid": "github:bsiever/microbit-pxt-blehid#v0.0.18"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "jacdac.json",
+        "jacdac.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "4.0.17",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}

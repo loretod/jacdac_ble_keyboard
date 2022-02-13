@@ -1,0 +1,8 @@
+{
+    "roles": [
+        {
+            "name": "speechSynthesis2",
+            "service": 302307733
+        }
+    ]
+}
